@@ -1,202 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GS KAYANGA</title>
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    .top-header {
-      background-color: grey;
-      text-align: center;
-      padding: 20px 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .top-header h1 {
-      margin: 0;
-      font-size: 2em;
-      color: #000;
-    }
-
-    .top-nav {
-      background-color: #444;
-      text-align: center;
-    }
-
-    .top-nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: inline-flex;
-    }
-
-    .top-nav li {
-      margin: 0;
-    }
-
-    .top-nav a, .top-nav button {
-      display: block;
-      padding: 14px 20px;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      background: none;
-      border: none;
-      cursor: pointer;
-    }
-
-    .top-nav a:hover, .top-nav button:hover {
-      background-color: #666;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      display: none;
-    }
-
-    th, td {
-      border: 1px solid #000;
-      padding: 8px;
-      text-align: left;
-    }
-
-    th {
-      background-color: #f2f2f2;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Free Exam Papers</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+}
+header {
+    background: #4a63e7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    padding: 20px;
+}
+.exam-box {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.exam-box a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    background: #4a63e7;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #777;
+}
+</style>
 </head>
+
 <body>
-  <!-- Top Header -->
-  <header class="top-header">
-    <h1>WELCOME TO GS KAYANGA</h1>
-  </header>
 
-  <!-- Navigation Menu -->
-  <nav class="top-nav">
-    <ul>
-      <li><button id="staffBtn">Staff Members</button></li>
-      <li><a href="#admissions">Admissions</a></li>
-      <li><a href="#academics">Academics</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-  </nav>
+<header>
+    <h1>Free Exam Papers</h1>
+    <p>View and download past exams</p>
+</header>
 
-  <!-- Staff Members Table -->
-  <table id="staffTable">
-    <thead>
-      <tr>
-        <th>No°</th>
-        <th>Full Names</th>
-        <th>Telephone</th>
-        <th>School Degree</th>
-      </tr>
-    </thead>
-    <tbody id="staffBody">
-      <!-- JavaScript will generate rows here -->
-    </tbody>
-  </table>
+<div class="container">
 
-  <!-- Sections -->
-  <section id="about">
-    <h2>About</h2>
-    <p>GS Kayanga is a forward-thinking educational institution dedicated to nurturing academic excellence, discipline, and holistic development among students.
-    Located in KIGALI City, GASABO District, RUTUNGA Sector, KIGABIRO Cell, KIGABIRO Village.</p>
-    <p>GS Kayanga offers quality education from Nursery school up to lower secondary with a strong emphasis on both academic and moral values.</p>
+<h2>Mathematics</h2>
+<div class="exam-box">
+    <strong>Form 1 – 2024</strong><br><br>
+    <a href="math_f1_2024.pdf" target="_blank">View</a>
+    <a href="math_f1_2024.pdf" download>Download</a>
+</div>
 
-    <p>Our mission is to:</p>
-    <ul>
-      <li>Provide a supportive and inclusive learning environment.</li>
-      <li>Foster creativity, critical thinking, and leadership.</li>
-      <li>Prepare students for success in higher education and beyond.</li>
-    </ul>
+<h2>English</h2>
+<div class="exam-box">
+    <strong>Form 2 – 2023</strong><br><br>
+    <a href="eng_f2_2023.pdf" target="_blank">View</a>
+    <a href="eng_f2_2023.pdf" download>Download</a>
+</div>
 
-    <p>We are committed to empowering every learner with the knowledge and skills needed to thrive in the 21st century.</p>
-  </section>
+</div>
 
-  <section id="admissions">
-    <h2>Admissions</h2>
-    <p>Details about the admission process.</p>
-  </section>
+<footer>
+    © 2026 Free Exams | Powered by GitHub Pages
+</footer>
 
-  <section id="academics">
-    <h2>Academics</h2>
-    <p>NURSERY LEVEL: Nursery 1, Nursery 2 and Nursery 3</p>
-    <p>LOWER PRIMARY LEVEL: Primary 1, Primary 2 and Primary 3</p>
-    <p>UPPER PRIMARY LEVEL: Primary 4, Primary 5 and Primary 6</p>
-    <p>LOWER SECONDARY LEVEL: S1, S2 and S3</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: info@gskayanga.edu.rw</p>
-    <p>Phone: +250 7888824498</p>
-    <p>Whatsapp number: +250 7888824498</p>
-  </section>
-
-  <!-- Share Our School Section -->
-  <section id="share" style="margin-top: 40px; text-align: center;">
-    <h2>Share Our School</h2>
-    <p>Help us reach more people by sharing our school information with your friends!</p>
-
-    <div style="margin: 10px;">
-      <a href="https://api.whatsapp.com/send?text=Visit%20GS%20Kayanga%20at%20https%3A%2F%2Fwww.gskayanga.edu.rw" target="_blank">Share on WhatsApp</a> |
-      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.gskayanga.edu.rw" target="_blank">Share on Facebook</a> |
-      <a href="https://twitter.com/intent/tweet?text=Check%20out%20GS%20Kayanga!%20https%3A%2F%2Fwww.gskayanga.edu.rw" target="_blank">Share on Twitter</a>
-    </div>
-
-    <button onclick="copyLink()" style="padding: 10px 20px; margin-top: 10px;">Copy Website Link</button>
-    <p id="copyMsg" style="color: green; display: none;">Link copied!</p>
-  </section>
-
-  <!-- JavaScript -->
-  <script>
-    document.getElementById('staffBtn').addEventListener('click', () => {
-      const table = document.getElementById('staffTable');
-      table.style.display = table.style.display === 'none' ? 'table' : 'none';
-    });
-
-    const tbody = document.getElementById('staffBody');
-
-    const staticData = [
-      { name: "MUGISHA Jean Nepomuscene", phone: "+250 798425393", degree: "Advanced level" },
-      { name: "UWERA Alice", phone: "+250 788765432", degree: "Advanced level" },
-      { name: "UWITONZE Evariste", phone: "+250 788765432", degree: "Advanced level" }
-    ];
-
-    for (let i = 1; i <= 58; i++) {
-      const row = document.createElement('tr');
-      if (i <= staticData.length) {
-        const staff = staticData[i - 1];
-        row.innerHTML = `
-          <td>${i}</td>
-          <td contenteditable="true">${staff.name}</td>
-          <td contenteditable="true">${staff.phone}</td>
-          <td contenteditable="true">${staff.degree}</td>
-        `;
-      } else {
-        row.innerHTML = `
-          <td>${i}</td>
-          <td contenteditable="true">Staff Member ${i}</td>
-          <td contenteditable="true">+250 7800000${String(i).padStart(2, '0')}</td>
-          <td contenteditable="true">Bachelor of Education</td>
-        `;
-      }
-      tbody.appendChild(row);
-    }
-
-    function copyLink() {
-      const link = "https://www.gskayanga.edu.rw";
-      navigator.clipboard.writeText(link).then(() => {
-        document.getElementById('copyMsg').style.display = 'block';
-        setTimeout(() => {
-          document.getElementById('copyMsg').style.display = 'none';
-        }, 2000);
-      });
-    }
-  </script>
 </body>
 </html>
