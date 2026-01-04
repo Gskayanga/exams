@@ -1,27 +1,25 @@
 # 📚 Free Exam Papers Portal
 
-A web-based platform designed to provide students and teachers with easy access to past examination papers.
+A professional web-based platform for students and teachers to access past examination materials for free.
 
-## 🚀 Live Demo
-You can access the live website here: 
+## 🚀 Live Website
+Access the portal here: 
 [https://gskayanga.github.io/exams/](https://gskayanga.github.io/exams/)
 
-## ✨ Features
-* **Mathematics Archive**: Includes Mid-Term and First-Term exams for S2 and Form 1.
-* **Easy Access**: One-click "View Online" or "Download PDF" options.
-* **Contact Support**: Dedicated contact page for user inquiries.
-* **Apolitical Module**: Secure login area for specialized content.
+## ✨ Key Features
+* **Mathematics Archive**: Instant access to Mid-Term and First-Term exams.
+* **Quick Actions**: "View Online" for quick reading or "Download PDF" for offline study.
+* **Contact Support**: Easy email integration for inquiries and contributions.
+* **Fully Responsive**: Works on mobile phones, tablets, and computers.
 
-## 📁 Project Structure
-* `/docs`: Contains the PDF exam papers (e.g., `Maths1.pdf`, `S2_MATH2.pdf`).
-* `index.html`: The main landing page.
-* `contact.html`: The support and inquiry page.
-* `login.html`: User authentication interface.
+## 📁 Repository Structure
+* `/docs`: The secure folder where all PDF exams are stored.
+* `index.html`: The home page of the website.
+* `contact.html`: The support page for user outreach.
+* `login.html`: The portal for authorized module access.
 
-## 🛠️ How to Add New Exams
-1. Upload the PDF to the `/docs` folder.
-2. Ensure the filename has no spaces.
-3. Add a new `exam-box` div to `index.html` with the correct file path.
+## 🛠️ Maintenance Note
+When adding new exams, ensure filenames in the `/docs` folder match the code in `index.html` exactly (case-sensitive) to avoid 404 errors.
 
 ---
-© 2026 Gskayanga | Developed for educational accessibility.
+© 2026 Gskayanga | Educational Resource Project
